@@ -1,0 +1,83 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+.item{
+    width: 20px;
+    flex: 0 0 auto;
+    margin-top: 2rem;
+    margin-left: 3rem;
+    margin-bottom: 2rem;
+}
+
+.item p{
+    position: relative;
+    left: 2rem;
+    top: -1rem;
+    width:10rem;
+    margin: 6px 2px;
+}
+.item-prices{
+    position: relative;
+    top: 20rem;
+
+    right: 5rem;
+    display: flex;
+    gap: 15px;
+}
+.item img{
+    width: 300px;
+    height: 250px;
+}
+.item-price-new{
+    position: relative;
+    top: -21.5rem;
+    left: 7rem;
+    color: red;
+    font-size: 20px;
+    font-weight: 600;
+}
+.item-price-old{
+    position: relative;
+    display: flex;
+    width: 130px;
+    top: -21.5rem;
+    left: 7rem;
+    color: grey;
+    text-decoration: line-through;
+    font-size: 20px;
+    font-weight: 500;
+}
+.items .dets p{
+    position: absolute;
+    top: -19rem;
+    width: 200px;
+    color :green;
+    
+    
+}
+.item:hover{
+    transform: scale(1.05);
+    transition: 0.65s ease-in-out;
+}
+.buy-buttons{
+    display: inline-flex;
+    width: 15rem;
+    gap: 2rem;
+}
+.add{
+    position: relative;
+    background: red;
+    align-items: center;
+    text-align: center;
+    font-size: 15px;   
+}
+.order{
+    background: rgb(29, 192, 29);
+}
+.whts{
+    font-size: 20px;
+    padding-right: 20px;
+}

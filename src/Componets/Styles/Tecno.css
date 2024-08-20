@@ -1,0 +1,19 @@
+.Tecno-container{
+    position: relative;
+    left: -8rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+}
+.saka2{
+    position: absolute;
+    top: -6rem;
+    left: 35rem;
+}
+@media(max-width:322px){
+   .Tecno-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+   }
+}

@@ -1,0 +1,157 @@
+.footer-section{
+    position: relative;
+    background: black;
+    width: 1250px;
+    display: flex;
+    justify-content: space-between;
+    gap:2rem;
+    color: white;
+    margin-left: 3rem;
+    height: 60vh;
+    padding: 6px 10px;
+}
+.socials{
+    position: relative;
+    top: 10rem;
+    left: 69rem;
+    font-size: 30px;
+}
+.icons{
+    position: relative;
+    right: 3rem;
+    display:flex;
+    justify-content: space-between;
+    cursor: pointer;
+    gap: 20px;
+    font-size: 30px;
+    top: 6rem;
+    margin-bottom: 2rem;
+}
+.insta{
+    color: rgb(181, 55, 175);
+    margin-bottom: 3rem;
+}
+.insta:hover{
+    box-shadow: 0 0 10px white, 0 0 20px rgb(212, 22, 212);
+
+}
+.Whatsapp{
+    color:limegreen;
+    margin-bottom: 4em;
+}
+.Whatsapp:hover{
+    box-shadow: 0 0 10px white, 0 0 20px rgb(54, 212, 22);
+
+}
+.facebk{
+    color: rgb(0, 162, 255);
+    margin-bottom: 6rem;
+}
+.facebk:hover{
+    background: transparent;
+    box-shadow: 0 0 10px white, 0 0 20px rgb(0, 166, 255);
+}
+.links{
+    position: relative;
+    top: 5rem;
+    right: 3rem;
+    font-size: 20px;
+}
+.image-grid{
+    position: relative;
+    right: 2rem;
+    top: 4rem;
+    margin-top: 10px;
+    display:grid;
+    grid-template-columns: repeat(3 , 2fr);
+    gap: 5px;
+}
+.image-grid img{
+    width: 70px;
+    height: 70px;
+    
+}
+.email-sub{
+    background: transparent;
+    display: block;
+}
+.sub{
+    position: relative;
+    top: -3rem;
+}
+.join{
+    position: relative;
+    left: -15rem;
+    border-radius: 0;
+    top: 0em;
+    padding: 10px 10px;
+}
+.subscribe{
+    position: relative;
+    top: 3rem;
+}
+.sub:hover{
+    background: rgb(0, 162, 255);
+    transform: translateX(0.5rem);
+    transition: 0.65s ease-in-out;
+    box-shadow: 0 0 10px white, 0 0 20px rgb(0, 166, 255);
+}
+.gp{
+    position: relative;
+    top: 3rem;
+    font-size: 20px;
+}
+.cpy{
+    display: flex;
+    position: absolute;
+    top: 19rem;
+    right: 30rem;
+    color: white;
+}
+.footer-left h1{
+    font-size: 20px;
+    position: relative;
+    left: -10rem;
+    top: 13rem;
+    text-decoration: underline;
+}
+.footer-left ul{
+    position: relative;
+    top: 15rem;
+    left: -13rem;
+    display: block;
+    font-size: 20px;
+    list-style: none;
+    gap: 1rem;
+    justify-content: space-around;
+}
+.footer-section ul li{
+    display: flex;
+    gap: 1rem;
+    line-height: rem;
+}
+.Fl{
+    width: 200px;
+    height: 120px;
+    position: relative;
+}
+@media only screen and (max-width: 1440px) {
+    .footer-section{
+        position: relative;
+        top: 25rem;
+        height: 25rem;
+        left: -2rem;
+    }
+}
+@media only screen and (max-width: 375px) {
+    .footer-section{
+        position: relative;
+        left: 2rem;
+    }
+}
+@media only screen and (max-width: 425px) {
+    .footer-section{
+        position: relative;
+        left: 2rem;
+    }
+}

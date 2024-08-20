@@ -1,0 +1,23 @@
+.cart-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.cart-container h1{
+    position: relative;
+    left: 10rem;
+}
+.back{
+    position: relative;
+    top: 5rem;
+    left: -15rem;
+    padding: 6px 10px;
+    background: rgb(227, 53, 5);
+    color: black;
+    font-weight: 600;
+    font-size: 2em;
+    outline: none;
+    border: none;
+
+}

@@ -1,0 +1,47 @@
+.result-template{
+    position: relative;
+    left: 18rem;
+    grid-template-columns: repeat(auto-fill ,minmax(250px, 1fr));
+    gap: 4rem;
+}
+.result-template:hover{
+    transform: scale(1.1);
+    transition: 1.073s ease-in-out;
+}
+.video-link{
+    position: absolute;
+    top: 23rem;
+    left: 5rem;
+    font-size: 3rem;
+}
+.new{
+    color: red;
+}
+.old{
+    color: grey;
+    text-decoration: line-through;
+}
+.sm-search{
+    position: relative;
+    left: 4rem;
+    top: -9rem;
+}
+.ad-cart{
+    height: 3rem;
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+.sm-search{
+    position: relative;
+    top: 3rem;
+}
+.popular1{
+    display: grid;
+    grid-template-columns: repeat(3 ,1fr);
+}
+@media (max-width:320px){
+    .popular1{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}

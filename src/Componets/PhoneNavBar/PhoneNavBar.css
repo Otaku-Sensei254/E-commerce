@@ -1,0 +1,33 @@
+.phone-nav{
+    margin-left: 95px;
+    margin-top: 2px;
+    padding :2px 4px;
+    box-shadow: 0 1px 3px 2px black;
+}
+.model-links{
+    display: flex;
+    justify-content: space-around;
+    font-size: 25px;
+}
+.model-links a{
+    color: black;
+}
+.model-links a:hover{
+    color: #778333;
+}
+@media (max-width:320px){
+    .model-links{
+        display: none;
+    }
+}
+@media (max-width:375px){
+    .model-links{
+        display: none;
+    }
+}
+@media (max-width:425px){
+    .model-links{
+        display: none;
+    }
+}
+

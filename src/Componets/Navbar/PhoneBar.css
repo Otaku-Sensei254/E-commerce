@@ -1,0 +1,80 @@
+.menu-class1{
+    position: absolute;
+    right: 4rem;
+    background: rgba(41, 37, 37, 0.991);
+    padding: 2rem 4rem;
+    z-index: 1;
+    transition: 2s ease-in-out;
+}
+.menu-class1 ul{
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+}
+.menu-class1 li a{
+    display: flex;
+    font-size: 30px;
+    justify-content: space-between;
+}
+.tap-me-menu1{
+    position: absolute;
+    top: 3rem;
+    right: 2rem;
+}
+@media (max-width:320px) {
+    .menu-class1{
+        z-index: 1;
+        position: absolute;
+        align-items: center;
+        justify-content: center;
+        left: 45rem;
+        width: 80%;
+    }
+    .tap-me-menu1{
+        position: absolute;
+        left:70rem;
+        top: 1em;
+        font-size: 2rem;
+    }
+}
+@media(max-width: 376px) {
+    .tap-me-menu1{
+        position: relative;
+        top: -7rem;
+        font-size: 2.5rem;
+        right: -76rem;
+    }
+    .menu-class1{
+        position: absolute;
+        right: -55rem;
+        top: 10rem;
+    }
+}
+@media (max-width: 426px) {
+    .tap-me-menu1{
+        position: relative;
+        font-size: 1.5rem;
+        right: -78rem; 
+        top: -6rem;
+    }
+    .menu-class1{
+        position: absolute;
+        right: -50rem;
+        top: 10rem;
+    }
+}
+@media (width: 768px) {
+    .tap-me-menu1{
+        display: none;
+    }
+}
+@media (width: 1024px) {
+    .tap-me-menu1{
+        display: none;
+    }
+}
+@media (width: 1440px) {
+    .tap-me-menu1{
+        display: none;
+    }
+}

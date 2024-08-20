@@ -1,0 +1,49 @@
+input:hover{
+    width: 300px;
+    transition: 5s ease-in-out;
+}
+.search-bar{
+    position: relative;
+    top: -9rem;
+    left: 5rem;
+    background: white;
+    padding: 6px 14px;
+    color: black;
+    border-radius: 20px;
+}
+.left-side img{
+    position: absolute;
+    top: 20rem;
+    height: 250px;
+}
+.left-side .video-link{
+    color: rgb(0, 170, 255);
+    position: absolute;
+    top: 32rem;
+    left: 12rem;
+}
+.left-side p{
+    position: absolute;
+    top: 35rem;
+    left: 2rem;
+    font-weight: 700;
+    color: blue;
+}
+.Details{
+    color: rgb(49, 218, 40);
+    width: 200px;
+}
+.popular1{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    
+}
+@media (max-width:321px){
+    .popular1{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: auto;
+        gap: 2px;
+    }
+}

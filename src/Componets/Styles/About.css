@@ -1,0 +1,126 @@
+
+.About-header{
+    color: rgba(100, 114, 20, 0.612);
+    text-decoration: underline;
+    position: absolute;
+    left: 35rem;
+}
+.about-p{
+    position: relative;
+    top: 5rem;
+    margin-left: 2rem;
+    margin-top: rem;
+    font-weight: 500;
+    text-align: justify;
+    font-size: 17px;
+    width: 650px;
+}
+.side-img{
+    position: relative;
+    top: -27rem;
+    left:54rem;
+    width: 400px;
+    border-radius: 15px;
+    box-shadow: 4px 10px  4px black ;
+}
+.side-img:hover{
+    transform: translateY(-1.5rem);
+    transition: 0.5s ease-in-out;
+}
+@media only screen and (max-width: 320px) {
+    .About-header{
+        position: absolute;
+        right: 30rem;
+        font-size: 4em;
+        display: flex;
+    }
+    .about-p{
+        font-size:30px;
+        position: relative;
+        top: 9rem;
+        width: 100%;
+    }
+    .side-img{
+        position: relative;
+        top: 10rem;
+    }
+    section h4{
+        font-size: 35px;
+        font-weight: bolder;
+        position: relative;
+        top: 15rem;
+        left: 2rem;
+    }
+}
+@media  (max-width: 376px) {
+    .about-p{
+        font-size: 3rem;
+        width: 100%;
+    }
+    .About-header{
+        font-size: 4rem;
+        display: flex;
+        flex-direction: row;
+    }
+    .about-p{
+        position: relative;
+        top: 10rem;
+    }
+    .side-img{
+        position: relative;
+        top: 5rem;
+    }
+    section h4{
+        position: relative;
+        top: 25rem;
+        left:10px;
+        font-size: 38px;
+    }
+}
+@media (max-width: 426px) {
+    .about-p{
+        font-size: 40px;
+        width: 100%;
+        position: relative;
+        top: 8rem;
+    }
+    .side-img{
+    position: relative;
+    top: 5rem;
+    }
+    section h4{
+        position: relative;
+        top: 20rem;
+        left: 3rem;
+        font-size: 35px;
+    }
+}
+@media (max-width: 769px) {
+    section h4{
+        position: relative;
+        font-size: 25px;
+        top: 16rem;
+        left: 5rem;
+    }
+    .about-p{
+        position: relative;
+        top: 9rem;
+        
+    }
+}
+@media (max-width: 1025px) {
+    section h4{
+        font-size: 40px;
+        position: relative;
+        top: 45rem;
+        left: 5rem;
+    }
+    .about-p{
+        font-size: 25px;
+        width: 60%;
+    }
+    .side-img{
+        position: relative;
+        top: -43rem;
+    }
+}
