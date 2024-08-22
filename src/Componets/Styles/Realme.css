@@ -7,3 +7,41 @@
     left: 35rem;
     top: -5rem;
 }
+@media (max-width:320px){
+    .realme{
+        position: relative;
+        left: -13rem;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .sm-search{
+        position: relative;
+        left: 19rem;
+    }
+}
+@media (max-width:376px){
+    .realme{
+        position: relative;
+        left: -13rem;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .sm-search{
+        position: relative;
+        left: 19rem;
+    }
+}
+@media (max-width:426px){
+    .realme{
+        position: relative;
+        left: -13rem;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .sm-search{
+        position: relative;
+        left: 19rem;
+    }
+}
+
+   

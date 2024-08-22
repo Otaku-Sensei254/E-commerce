@@ -7,12 +7,13 @@ import Infinix_Products from '../Source/Infinix'
 import '../Styles/Infinix.css'
 import PhoneBar from '../Navbar/PhoneBar'
 import { FaWhatsapp } from "react-icons/fa";
+import MobileNav from '../Navbar/Mobilenav'
 const Infinix = () => {
   const [searchTerm , setSearchTerm] = useState("");
 
   return (
     <>
-    <Navbar/>
+    <Navbar/><MobileNav/>
     <PhoneNavBar/>
     <PhoneBar/>
     

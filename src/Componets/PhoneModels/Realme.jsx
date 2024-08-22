@@ -6,19 +6,21 @@ import Realme_products from '../Source/Realme'
 import '../Styles/Realme.css'
 import PhoneBar from '../Navbar/PhoneBar'
 import { FaWhatsapp } from "react-icons/fa";
+import MobileNav from '../Navbar/Mobilenav'
 const Realme = () => {
   const [searchTerm , setSearchTerm] = useState("");
 
   return (
     <>
     <Navbar/>
-    <PhoneNavBar/>
+    <PhoneNavBar/><MobileNav/>
     <PhoneBar/>
     <input className="sm-search"type='text' placeholder='search phone.....'onChange={(e)=>{
     setSearchTerm(e.target.value);
   }}/>
       <div className="template-container">
-                {
+        <div className="realme">
+          {
                   Realme_products.filter((val)=>{
                     if(searchTerm == ""){
                       return val;
@@ -44,6 +46,8 @@ const Realme = () => {
                     )
                   })
                 }
+        </div>
+                
               </div>
     </>
   )

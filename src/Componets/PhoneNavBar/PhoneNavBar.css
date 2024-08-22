@@ -16,16 +16,25 @@
     color: #778333;
 }
 @media (max-width:320px){
+    .phone-nav{
+        display: none;
+    }
     .model-links{
         display: none;
     }
 }
 @media (max-width:375px){
+    .phone-nav{
+        display: none;
+    }
     .model-links{
         display: none;
     }
 }
-@media (max-width:425px){
+@media (max-width:426px){
+    .phone-nav{
+        display: none;
+    }
     .model-links{
         display: none;
     }

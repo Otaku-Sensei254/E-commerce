@@ -38,13 +38,14 @@
         position: absolute;
         align-items: center;
         justify-content: center;
-        left: 50rem;
+        left: 5rem;
+        top: 5rem;
         width: 80%;
     }
     .tap-me-menu{
         position: absolute;
-        left:70rem;
-        top: 1em;
+        left:4rem;
+        top: -3em;
         font-size: 2rem;
     }
 }
@@ -53,7 +54,7 @@
         position: relative;
         top: -7rem;
         font-size: 2.5rem;
-        right: -76rem;
+        right: -74rem;
     }
     .menu-class{
         position: absolute;
@@ -65,18 +66,26 @@
     .tap-me-menu{
         position: relative;
         font-size: 1.5rem;
-        right: -78rem; 
-        top: -6rem;
+        left: 2rem; 
+        top: 0rem;
     }
     .menu-class{
         position: absolute;
-        right: -55rem;
-        top: 8rem;
+        right: -5rem;
+        top: 13rem;
     }
 }
-@media (width: 768px) {
+@media (max-width: 769px) {
     .tap-me-menu{
-        display: none;
+        display: block;
+        position: relative;
+        left: 2rem;
+        top: 0rem;
+    }
+    .menu-class{
+        position: absolute;
+        left: 2rem;
+        width: 40%;
     }
 }
 @media (width: 1024px) {
@@ -86,6 +95,9 @@
 }
 @media (width: 1440px) {
     .tap-me-menu{
+        display: none;
+    }
+    .menu-class{
         display: none;
     }
 }

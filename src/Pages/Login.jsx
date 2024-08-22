@@ -1,11 +1,13 @@
 import React from 'react'
 import Navbar from '../Componets/Navbar/Navbar'
 import '../Componets/Styles/Login.css'
+import MobileNav from '../Componets/Navbar/Mobilenav'
 
 const Login = () => {
   return (
     <>
     <Navbar/>
+    <MobileNav/>
     <section className='Login-page'>
          <div className="login">
            <form>

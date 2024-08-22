@@ -3,6 +3,8 @@ h2{
     left: 2rem;
 }
 .Nokia-container{
+    position: relative;
+    right: 13rem;
     display: grid;
     grid-template-columns: repeat(3 , 1fr);
     position: relative;
@@ -17,4 +19,40 @@ h2{
     position: relative;
     left: -35rem;
     width: 15rem;
+}
+@media (max-width:321px){
+    .Nokia-container{
+        display: grid;
+        grid-template-columns: repeat(2 ,1fr);
+        position: relative;
+        left: -30rem;
+    }
+    .saka3{
+        position: relative;
+        left: -10rem;
+    }
+}
+@media (max-width:376px){
+    .Nokia-container{
+        display: grid;
+        grid-template-columns: repeat(2 ,1fr);
+        position: relative;
+        left: -30rem;
+    }
+    .saka3{
+        position: relative;
+        left: -10rem;
+    }
+}
+@media (max-width:426px){
+    .Nokia-container{
+        display: grid;
+        grid-template-columns: repeat(2 ,1fr);
+        position: relative;
+        left: -30rem;
+    }
+    .saka3{
+        position: relative;
+        left: -10rem;
+    }
 }
