@@ -13,6 +13,7 @@ import { FaPhone } from "react-icons/fa6";
 import { FaEnvelope } from "react-icons/fa";
 import { CiLocationOn } from "react-icons/ci";
 import Logo from '../Assets/logo.jpeg'
+import {Link} from 'react-router-dom'
 const Footer = () => {
   return (
     <>
@@ -49,9 +50,9 @@ const Footer = () => {
                   </div>
                    <h4 className='links'>Contact us via our Socials</h4> 
               <div className="icons">  
-                <a href="https://web.facebook.com/shifayeee"><FaFacebookF className='facebk'/></a> 
-                <a href="https://wa.me/+254746429881" target='blank'><FaWhatsapp className='Whatsapp'/></a> 
-                <a href="https://www.instagram.com/shifaye_enterprises/?utm_source=ig_web_button_share_sheet" target='blank'><SlSocialInstagram className='insta'/></a> 
+                <Link to="https://web.facebook.com/shifayeee"><FaFacebookF className='facebk'/></Link> 
+                <Link to="https://wa.me/+254746429881" target='blank'><FaWhatsapp className='Whatsapp'/></Link> 
+                <Link to="https://www.instagram.com/shifaye_enterprises/?utm_source=ig_web_button_share_sheet" target='blank'><SlSocialInstagram className='insta'/></Link> 
                 </div>
                 <div className="copy">
                   <p className='cpy'>Shifaye Enterprise <br/> copyright@2024 by D-Huhu Inc </p>

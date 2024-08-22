@@ -141,17 +141,151 @@
         top: 25rem;
         height: 25rem;
         left: -2rem;
+        
     }
 }
-@media only screen and (max-width: 375px) {
+@media  (max-width: 375px) {
     .footer-section{
         position: relative;
         left: 2rem;
+        width: 60%;
     }
 }
-@media only screen and (max-width: 425px) {
+@media (max-width: 426px) {
     .footer-section{
         position: relative;
-        left: 2rem;
+        left: -2rem;
+        width: 76%;
     }
+    .email-sub{
+        position: relative;
+        left: -8rem;
+        top: -2rem;
+    }
+    .Fl{
+        width: 100px;
+        height: 80px;
+    }
+    .footer-left{
+        position: relative;
+        left: 5rem;
+        top: -5rem;
+    }
+    .footer-left ul li{
+        font-size: 20px;
+    }
+    .cpy{
+        position: absolute;
+        left: 4%;
+        display: flex;
+        flex-direction: row;
+        width: 300px;
+        top: 20rem;
+    }
+    .image-grid{
+        position: relative;
+        left: -25rem;
+        top: 5rem;
+    }
+    .facebk{
+        position: relative;
+        left: -21rem;
+    }
+    .Whatsapp{
+        position: relative;
+        left: -23rem;
+    }
+    .insta{
+        position: relative;
+        left: -25rem;
+    }
+    .links{
+        position: relative;
+        left: -26rem;
+        top: 5rem;
+    }
+    .gp{
+        position: relative;
+        left: -25rem;
+        top: 5rem;
+    }
+}
+@media (max-width:769px){
+    .footer-section{
+        width: 66%;
+    }
+    .email-sub{
+        position: relative;
+        top: -2rem;
+        left: -3rem;
+    }
+    .image-grid{
+        position: relative;
+        left: -23rem;
+    }
+    .facebk{
+        position: relative;
+        left: -20rem;
+    }
+    .Whatsapp{
+        position: relative;
+        left: -22rem;
+    }
+    .insta{
+        position: relative;
+        left:-24rem;
+    }
+    .links{
+        position: relative;
+        left: -15rem;
+    }
+    .cpy{
+        position: absolute;
+        left: 3rem;
+        top: 22rem;
+    }
+    .footer-left{
+        position: relative;
+        top: -3rem;
+    }
+}
+@media (width:1025px){
+    .footer-section{
+        position: relative;
+        
+    }
+    .email-sub{
+        position: relative;
+        top: -2rem;
+        left: -1rem;
+    }
+    .image-grid{
+        position: relative;
+        left: -9rem;
+    }
+    .facebk{
+        position: relative;
+        left:-9rem;
+    }
+    .Whatsapp{
+        position: relative;
+        left: -10rem;
+    }
+    .insta{
+        position: relative;
+        left: -10rem;
+    }
+    .links{
+        position: relative;
+        left: -8rem;
+    }
+    .gp{
+        position: relative;
+        left: -7rem;
+    }
+    .footer-left{
+        position: relative;
+        top: -4rem;
+    }
+    
 }

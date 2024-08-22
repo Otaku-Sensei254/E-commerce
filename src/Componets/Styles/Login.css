@@ -67,3 +67,86 @@ form p{
     top: -2rem;
     text-decoration: underline;
 }
+@media (max-width:321px){
+    .Login-page{
+        position: relative;
+        left: -3rem;
+        top: 1rem;
+        width: 60%;
+        height: 150%;
+    }
+    .login{
+        position: relative;
+        left: -18rem;
+        top: 5rem;
+        width: 60%;
+    }   
+    input{
+        font-size: 30px;
+    }
+    form a{ 
+        font-size: 28px;
+    }
+}
+@media (max-width:376px){
+    .Login-page{
+        position: relative;
+        left: -3rem;
+        top: 1rem;
+        width: 60%;
+        height: 150%;
+    }
+    .login{
+        position: relative;
+        left: -18rem;
+        top: 5rem;
+        width: 60%;
+    }   
+    input{
+        font-size: 30px;
+    }
+    form a{ 
+        font-size: 28px;
+    }
+}
+@media (max-width:426px){
+    .Login-page{
+        position: relative;
+        left: -3rem;
+        top: 1rem;
+        width: 70%;
+        height: 150%;
+    }
+    .login{
+        position: relative;
+        left: -15rem;
+        top: 5rem;
+        width: 60%;
+    }   
+    input{
+        font-size: 30px;
+    }
+    form a{ 
+        font-size: 28px;
+    }
+}@media (max-width:769px){
+    .Login-page{
+        position: relative;
+        left: -3rem;
+        top: 1rem;
+        width: 70%;
+        height: 150%;
+    }
+    .login{
+        position: relative;
+        left: -15rem;
+        top: 5rem;
+        width: 60%;
+    }   
+    input{
+        font-size: 30px;
+    }
+    form a{ 
+        font-size: 28px;
+    }
+}

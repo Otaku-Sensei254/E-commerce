@@ -8,6 +8,7 @@ import PhoneBar from '../Navbar/PhoneBar'
 import Search from '../Search/Search'
 //import { useCart}from 'react-use-cart'
 import Cart from '../../Pages/Cart'
+import MobileNav from '../Navbar/Mobilenav'
 
 const Iphones = () => {
   
@@ -15,13 +16,14 @@ const Iphones = () => {
   
   return (
     <>
-    <Navbar/>
+    <Navbar/><MobileNav/>
     <PhoneNavBar/>
     <PhoneBar/>
     
+    
 <div className="popular">
         <h2>POPULAR IPHONES</h2>
-        <hr/>
+        
           <div className="popular-item">
           {/*  {iphone_product.map((item,i)=>{
                 return <Items key={i} id={item.id} name={item.name} image={item.image} new_price={item.new_price} old_price={item.old_price}/>

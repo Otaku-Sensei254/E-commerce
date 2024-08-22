@@ -32,17 +32,17 @@
     }
     .tap-me-menu1{
         position: absolute;
-        left:70rem;
+        left:40rem;
         top: 1em;
         font-size: 2rem;
     }
 }
-@media(max-width: 376px) {
+@media(max-width: 375px) {
     .tap-me-menu1{
         position: relative;
-        top: -7rem;
+        top: -8rem;
         font-size: 2.5rem;
-        right: -76rem;
+        left: 46rem;
     }
     .menu-class1{
         position: absolute;
@@ -54,18 +54,28 @@
     .tap-me-menu1{
         position: relative;
         font-size: 1.5rem;
-        right: -78rem; 
-        top: -6rem;
+        left: 47rem;
+        top: -2.7em;
     }
     .menu-class1{
         position: absolute;
-        right: -50rem;
-        top: 10rem;
+        left: 30rem;
+        top: 15rem;
+        width: 40%;
     }
 }
-@media (width: 768px) {
+@media (max-width: 769px) {
     .tap-me-menu1{
-        display: none;
+        display: block;
+        position: relative;
+        left: 43rem;
+        top: -4rem;
+    }
+    .menu-class1{
+        position: absolute;
+        right: -13rem;
+        width: 30%;
+        top: 11rem;
     }
 }
 @media (width: 1024px) {
@@ -75,6 +85,9 @@
 }
 @media (width: 1440px) {
     .tap-me-menu1{
+        display: none;
+    }
+    .menu-class1{
         display: none;
     }
 }

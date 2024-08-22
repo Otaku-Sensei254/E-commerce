@@ -8,6 +8,7 @@ import PhoneBar from '../Navbar/PhoneBar'
 
 import './Samsung.css'
 import { MdSlowMotionVideo } from "react-icons/md";
+import MobileNav from '../Navbar/Mobilenav'
 
 
 const Samsung = () => {
@@ -15,10 +16,10 @@ const Samsung = () => {
   return (
     <>
     <Navbar/>
-    <PhoneNavBar/>
+    <PhoneNavBar/><MobileNav/>
     <PhoneBar/>
     <div className="popular1">
-        <h2>POPULAR Samsungs</h2>
+        <h2 className='sam-h2'>POPULAR Samsungs</h2>
         {
          Samsung_Products.map(products=>(
           <Items data={products} id={products.id}/>
