@@ -10,17 +10,18 @@ import { useState } from 'react'
 import { MdSlowMotionVideo } from "react-icons/md";
 import Cart from '../../Pages/Cart'
 import PhoneBar from '../Navbar/PhoneBar'
+import MobileNav from '../Navbar/Mobilenav'
 const ViVos = () => {
   
   const [searchTerm , setSearchTerm] = useState("");
   return (
     <>
     <Navbar/>
-    <PhoneNavBar/>
+    <PhoneNavBar/><MobileNav/>
     <PhoneBar/>
     <div className="popular1">
         {/*<img src={Vivo} alt="" />*/}
-        <h2>POPULAR ViVos</h2>
+        <h2 className='ph1'>POPULAR ViVos</h2>
         
         {
           Vivo_Products.map((product)=>(

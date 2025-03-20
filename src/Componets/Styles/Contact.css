@@ -78,36 +78,117 @@ a:nth-child(8){
     top: -4rem;
     cursor: pointer;
 }
-@media (max-width:1024px){
+@media (max-width:1025px){
+    .icons2{
+        display: flex;
+        position: relative;
+        top: 6rem;
+    }
     .g-map{
         position: relative;
-        left: 19rem;
-        top: 2rem;
+        left: 15rem;
+        top: 0rem;
+    }
+    .right-side-contact h2{
+        position: relative;
+        left: 15rem;
+    }
+}
+@media (max-width:769px){
+    .icons2{
+        display: flex;
+        position: relative;
+        top: 6rem;
+        left: -8rem;
+        line-height: 10px;
+    }
+    .g-map{
+        position: relative;
+        left: -12rem;
+        width: 50px;
+        top: 0rem;
+    }
+    .right-side-contact h2{
+        position: relative;
+        left: 5rem;
+    }
+    .contact-head h3{
+        display: flex;
+        position: relative;
+        flex-direction: row;
+        left: -10rem;
+        top: -6rem;
+        width: 20rem;
+    }
+}
+
+@media (max-width:426px){
+    .icons2{
+        display: flex;
+        position: relative;
+        top: 6rem;
+        left: -8rem;
+        line-height: 10px;
+    }
+    .g-map{
+        position: relative;
+        left: 10rem;
+        width: 50px;
+        top: 0rem;
     }
     .right-side-contact h2{
         position: relative;
         left: 19rem;
     }
-    @media (max-width:769px){
-        .right-side-contact{
-            position: relative;
-            left: 3rem;
-            border: none;
-            top: 5rem;
-        }
-    }
-
-}
-@media (max-width:426px){
     .contact-head h3{
-        position: absolute;
-        top: -5rem;
-        font-size: 25px;
-        width: 19rem;
-        
+        display: flex;
+        position: relative;
+        flex-direction: row;
+        left: -15rem;
+        top: -8rem;
+        width: 20rem;
     }
 }
-
-
-
-
+@media (max-width:376px){
+    .icons2{
+        display: flex;
+        position: relative;
+        top: 6rem;
+        left: -8rem;
+        line-height: 10px;
+    }
+    .g-map{
+        position: relative;
+        left: 13rem;
+        width: 50px;
+        top: 0rem;
+    }
+    .right-side-contact h2{
+        position: relative;
+        left: 19rem;
+    }
+    .contact-head h3{
+        display: flex;
+        position: relative;
+        flex-direction: row;
+        left: -15rem;
+        top: -8rem;
+        width: 20rem;
+    }
+}
+@media (max-width:321px){
+    .icons2{
+        display: flex;
+        position: relative;
+        top: 26rem;
+        left: -8rem;
+        line-height: 10px;
+        font-size: 50px;
+    }
+    .g-map{
+        position: relative;
+        left: 10rem;
+        width: 200px;
+        top: 0rem;
+    }
+}

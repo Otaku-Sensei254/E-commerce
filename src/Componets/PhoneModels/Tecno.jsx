@@ -7,6 +7,7 @@ import Tecno_products from '../Source/Techno'
 import '../Styles/Tecno.css'
 import { FaWhatsapp } from "react-icons/fa";
 import PhoneBar from '../Navbar/PhoneBar'
+import MobileNav from '../Navbar/Mobilenav'
 
 const Tecno = () => {
   const [searchTerm , setSearchTerm] = useState("");
@@ -14,7 +15,7 @@ const Tecno = () => {
   return (
     <>
     <Navbar/>
-    <PhoneNavBar/>
+    <PhoneNavBar/><MobileNav/>
     <PhoneBar/>
     <div className="popular">
         <h2>POPULAR Tecnos</h2>

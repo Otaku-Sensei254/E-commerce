@@ -1,19 +1,20 @@
 import React, { useState } from 'react';
 import './PhoneBar.css'
-import { FaAngleRight } from "react-icons/fa";
+import { FaAngleLeft } from "react-icons/fa";
+import { Link } from 'react-router-dom';
 function Menu() {
   return (
     <div className="menu-class1">
       <ul>
         <li>
-        <a href="iPhones">iPhone</a>
-        <a  href="Vivos">Vivo</a>
-        <a href="Nokia">Nokia</a>
-        <a href="Samsung">Samsung</a>
-        <a href="Oppo">Oppo</a>
-        <a  href="Tecno">Tecno</a>
-        <a href="Infinix">Infinix</a>
-        <a href="Realme">Realme</a>
+        <Link to="/iPhones">iPhone</Link>
+        <Link  to="/Vivos">Vivo</Link>
+        <Link to="/Nokia">Nokia</Link>
+        <Link to="/Samsung">Samsung</Link>
+        <Link to="/Oppo">Oppo</Link>
+        <Link  to="/Tecno">Tecno</Link>
+        <Link to="/Infinix">Infinix</Link>
+        <Link to="/Realme">Realme</Link>
         
         </li>
         
@@ -33,7 +34,7 @@ function PhoneBar() {
     <div className="menu-item1">
       <div className="tap-menu1">
         <button onClick={toggleMenu} className="tap-me-menu1">
-        <FaAngleRight/>
+        <FaAngleLeft/>
         </button>
         {menuVisible && <Menu />}
       </div>

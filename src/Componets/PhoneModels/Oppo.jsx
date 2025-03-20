@@ -8,6 +8,7 @@ import { useState } from 'react'
 import { FaWhatsapp } from "react-icons/fa";
 import PhoneBar from '../Navbar/PhoneBar'
 import '../Styles/Oppo.css'
+import MobileNav from '../Navbar/Mobilenav'
 
 const Oppo = () => {
   const [searchTerm , setSearchTerm] = useState("");
@@ -15,7 +16,7 @@ const Oppo = () => {
   return (
     <>
     <Navbar/>
-    <PhoneNavBar/>
+    <PhoneNavBar/><MobileNav/>
     <PhoneBar/>
     <input className="saka"type='text' placeholder='search phone.....'onChange={(e)=>{
     setSearchTerm(e.target.value);

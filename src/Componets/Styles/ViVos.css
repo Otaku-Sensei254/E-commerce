@@ -34,16 +34,43 @@ input:hover{
     width: 200px;
 }
 .popular1{
+    position: relative;
+    left: 5rem;
+    gap: 2rem;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: auto;
-    
+    grid-template-columns: repeat(auto-fill, minmax(20px, 1fr));
+    padding: 0.5rem;
 }
 @media (max-width:321px){
     .popular1{
+        position: relative;
+        left: -2rem;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: auto;
         gap: 2px;
+    }
+    .ph1{
+        position: relative;
+        left: 6rem;
+    }
+}
+@media (max-width:376px){
+    .popular1{
+        position: relative;
+        left: -4rem;
+        display: grid;
+        grid-template-rows: auto;
+        gap: 2px;
+    }
+}
+@media(max-width:426px){
+    .popular1{
+        position: relative;
+        left: -4rem;
+        display: grid;
+        grid-template-columns: repeat(auto-fill,minmax(20px ,1fr));
+        grid-template-rows: auto;
+        gap: 10rem;
     }
 }

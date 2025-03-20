@@ -3,15 +3,22 @@
 }
 .oppo-container{
     position: relative;
-    right: 5rem;
+    right: 12rem;
     display: grid;
     grid-template-columns: repeat(3, 2fr);
     grid-template-rows: auto;
 }
 @media (max-width:321px){
     .oppo-container{
+        position: relative;
+        left: -25rem;
     display: grid;
-    grid-template-columns: repeat(2, 2fr);
+    grid-template-columns: repeat(2, 1fr);
     grid-template-rows: auto;
+    gap: 2px;
+    }
+    .saka{
+        position: relative;
+        left: 18rem;
     }
 }

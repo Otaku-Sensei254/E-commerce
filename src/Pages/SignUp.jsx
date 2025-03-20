@@ -1,11 +1,12 @@
 import React from 'react'
 import Navbar from '../Componets/Navbar/Navbar'
 import '../Componets/Styles/SignUp.css'
-
+import Mobilenav from '../Componets/Navbar/Mobilenav'
 const SignUp = () => {
   return (
     <>
     <Navbar/>
+    <Mobilenav/>
     <section className='SignUp-page'>
          <div className="SignUp">
            <form>

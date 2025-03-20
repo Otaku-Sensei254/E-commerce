@@ -8,7 +8,7 @@ const PhoneNavBar = () => {
             <ul className='model-links'>
                 <Link to="/iPhones">iPhone</Link>
                 <Link to="/Vivos">ViVo</Link>
-                <a href="/Samsung">Samsung</a>
+                <Link to="/Samsung">Samsung</Link>
                 <Link to="/Oppo">OPPO</Link>
                 <Link to="/Tecno">Tecno</Link>
                 <Link to="/Nokia">Nokia</Link>

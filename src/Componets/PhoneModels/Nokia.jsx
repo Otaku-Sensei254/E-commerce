@@ -7,13 +7,14 @@ import Nokia_Products from '../Source/Nokia'
 import '../Styles/Nokia.css'
 import PhoneBar from '../Navbar/PhoneBar'
 import { FaWhatsapp } from "react-icons/fa";
+import MobileNav from '../Navbar/Mobilenav'
 const Nokia = () => {
   const [searchTerm , setSearchTerm] = useState("");
 
   return (
     <>
         <Navbar/>
-        <PhoneNavBar/>
+        <PhoneNavBar/><MobileNav/>
         <PhoneBar/>
         <div className="popular">
         <h2>POPULAR Nokias</h2>

@@ -1,16 +1,17 @@
 import React, { useState } from 'react';
 import '../Styles/Mobilenav.css';
 import { MdMenu } from "react-icons/md";
+import {Link} from 'react-router-dom'
 function Menu() {
   return (
     <div className="menu-class">
       <ul>
         <li>
-        <a href="/">Home</a>
-        <a  href="Shop">Shop</a>
-        <a href="Accessories">Accessories</a>
-        <a href="Contact">Contact</a>
-        <a className="tap-me" href="Login"><button className='mlog'>Login</button></a>
+        <Link to="/">Home</Link>
+        <Link  to="/Shop">Shop</Link>
+        <Link to="/Accessories">Accessories</Link>
+        <Link to="/Contact">Contact</Link>
+        <Link className="tap-me" to="/Login"><button className='mlog'>Login</button></Link>
         </li>
         
       </ul>

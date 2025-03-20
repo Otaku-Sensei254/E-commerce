@@ -44,4 +44,20 @@
         display: grid;
         grid-template-columns: repeat(2, 1fr);
     }
+    .sam-h2{
+        position: relative;
+        left: 5rem;
+    }
+}
+@media (max-width:376px){
+    .sam-h2{
+        position: relative;
+        left: 5rem;
+    }
+}
+@media (max-width:426px){
+    .sam-h2{
+        position: relative;
+        left: 5rem;
+    }
 }

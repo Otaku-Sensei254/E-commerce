@@ -14,6 +14,7 @@ import { useState } from 'react'
 import { FaWhatsapp } from "react-icons/fa";
 import MobileNav from '../Componets/Navbar/Mobilenav'
 import PhoneBar from '../Componets/Navbar/PhoneBar'
+import { Link } from 'react-router-dom'
 //import Popular from '../Componets/Popular/Popular'
 
 const Shop = () => {
@@ -33,14 +34,14 @@ const Shop = () => {
             <p>Oppo 5G</p>
             <h4 className='now'>Now: KSH 20,000</h4>
             <h4 className='then'>Then: KSH 28,000</h4>
-            <button className='order'> <FaWhatsapp className='whts'/>Order Now</button>
+            <a href="https://wa.me/+254746429881" target='blank'><button className='order'> <FaWhatsapp className='whts'/>Order Now</button></a>
           </div>
           <div className="item-sale-2">
             <img src={PODS} alt="" />
             <p>Samsung Galaxy Buds</p>
             <h4 className='now'>Now: KSH 10,000</h4>
             <h4 className='then'>Then: KSH 13,000</h4>
-            <button className='order'> <FaWhatsapp className='whts'/>Order Now</button>
+            <a href="https://wa.me/+254746429881" target='blank'><button className='order'> <FaWhatsapp className='whts'/>Order Now</button></a>
 
           </div>
           <div className="item-sale-3">
@@ -48,7 +49,7 @@ const Shop = () => {
             <p>Samsung S23 ULTRA</p>
             <h4 className='now'>Now: KSH 95,000</h4>
             <h4 className='then'>Then: KSH 105,000</h4>
-            <button className='order'> <FaWhatsapp className='whts'/>Order Now</button>
+            <a href="https://wa.me/+254746429881" target='blank'><button className='order'> <FaWhatsapp className='whts'/>Order Now</button></a>
 
           </div>
           <div className="item-sale-4">
@@ -56,43 +57,24 @@ const Shop = () => {
             <p>Smart Watch</p>
             <h4 className='now'>Now: KSH 7,000</h4>
             <h4 className='then'>Then: KSH 10,000</h4>
-            <button className='order'> <FaWhatsapp className='whts'/>Order Now</button>
+            <a href="https://wa.me/+254746429881" target='blank'><button className='order'> <FaWhatsapp className='whts'/>Order Now</button></a>
 
           </div>
     </div>
     {/*<Popular/>*/}
     <div className="popular">
-       {/* <h2>POPULAR IPHONES</h2>
-        <hr/>
-          <div className="popular-item">
-            {iphone_product.map((item,i)=>{
-                return <Items key={i} id={item.id} name={item.name} image={item.image} new_price={item.new_price} old_price={item.old_price}/>
-            })}
-          </div>*/}
+        <div className="all">
+          {
+                All_Products.map(cul=>(
+                  <Items data={cul} id={cul.id}/>
+                ))
+               }
+        </div>
+        
     </div>
       <div className="products">
-      <div className="template-container2">
-                {
-                  All_Products.filter((val)=>{
-                    if(searchTerm == ""){
-                      return val;
-                    }else if(val.name.toLowerCase().includes(searchTerm.toLowerCase())){
-                      return val;
-                    }
-                  })
-                  .map((val)=>{
-                    return(
-                      <div className='result-template'key={val.id}>
-                        <img src={val.image} alt="" />
-                        <h3>{val.name}</h3>
-                        <h3 className='new'>Ksh {val.new_price}</h3>
-                        <h3 className='old'>Ksh {val.old_price}</h3>
-                        <button className='order'><FaWhatsapp className='whts'/> Order Now</button>
-                      </div>
-                    )
-                  })
-                }
-              </div>
+      <div className="template-container2"></div>
+                       
        
       </div>
      
